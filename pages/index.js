@@ -29,42 +29,42 @@ export default function Home() {
 
           <div className="grid grid-cols-1  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             <SmallCard
-              img="https://links.papareact.com/5j2"
+              img="/images/london.webp"
               distance="45-minute drive"
               location="London"
             />{" "}
             <SmallCard
-              img="https://links.papareact.com/1to"
+              img="/images/manchester.webp"
               distance="4.5-hour drive"
               location="Manchester"
             />{" "}
             <SmallCard
-              img="https://links.papareact.com/40m"
+              img="/images/liverpool.webp"
               distance="4.5-hour drive"
               location="Liverpool"
             />{" "}
             <SmallCard
-              img="https://links.papareact.com/msp"
+              img="/images/yorl.webp"
               distance="4-hour drive"
               location="York"
             />{" "}
             <SmallCard
-              img="https://links.papareact.com/2k3"
+              img="/images/cardiff.webp"
               distance="45-minute drive"
               location="Cardiff"
             />{" "}
             <SmallCard
-              img="https://links.papareact.com/ynx"
+              img="/images/birkenhead.webp"
               distance="4.5-hour drive"
               location="Birkenhead"
             />{" "}
             <SmallCard
-              img="https://links.papareact.com/kji"
+              img="/images/newquay.webp"
               distance="6-hour drive"
               location="Newquay"
             />{" "}
             <SmallCard
-              img="https://links.papareact.com/41m"
+              img="/images/hove.webp"
               distance="2-hour drive"
               location="Hove"
             />
@@ -74,27 +74,15 @@ export default function Home() {
         <section>
           <h2 className="text-4xl font-semibold py-8">Live Anywhere</h2>
           <div className="flex space-x-3 overflow-scroll scrollbar-hide p-3 -ml-3">
-            <MediumCard
-              img="https://links.papareact.com/2io"
-              title="Outdoor getaways"
-            />
-            <MediumCard
-              img="https://links.papareact.com/q7j"
-              title="Unique stays"
-            />
-            <MediumCard
-              img="https://links.papareact.com/s03"
-              title="Entire homes"
-            />
-            <MediumCard
-              img="https://links.papareact.com/8ix"
-              title="Pet allowed"
-            />
+            <MediumCard img="/images/outdoor.webp" title="Outdoor getaways" />
+            <MediumCard img="/images/unique.webp" title="Unique stays" />
+            <MediumCard img="/images/entire.webp" title="Entire homes" />
+            <MediumCard img="/images/pet.webp" title="Pet allowed" />
           </div>
         </section>
 
         <LargeCard
-          img="https://links.papareact.com/4cj"
+          img="/images/largeimage.webp"
           title="The Greatest Outdoors"
           desc="Wishlists curated by Airbnb."
           buttonText="Get Inspired"
